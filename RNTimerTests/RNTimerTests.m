@@ -53,6 +53,17 @@
   STAssertFalse(didFire, @"Did fire:%@", timer);
 }
 
+- (void)testManualFire
+{
+  __block NSUInteger countOfFires = 0;
 
+  RNTimer *timer = [RNTimer repeatingTimerWithTimeInterval:1 block:^{
+    countOfFires++;
+  }];
+  [timer fire];
+
+  [[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:1]];
+  STAssertTrue(countOfFires == 2, @"Should have fired twice:%d", countOfFires);
+}
 
 @end

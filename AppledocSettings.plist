@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+	"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>--ignore</key>
+	<array>
+		<string>RNTimerTests</string>
+	</array>
+	<key>--project-name</key>
+	<string>RNTimer</string>
+	<key>--project-company</key>
+	<string>Rob Napier</string>
+	<key>--company-id</key>
+	<string>net.robnapier</string>
+	<key>--create-html</key>
+	<true/>
+	<key>--create-docset</key>
+	<false/>
+	<key>--output</key>
+	<string>doc</string>
+	<key>--logformat</key>
+	<string>xcode</string>
+</dict>
+</plist>

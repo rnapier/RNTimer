@@ -36,8 +36,11 @@
 @synthesize block = _block;
 @synthesize source = _source;
 
-+ (RNTimer *)repeatingTimerWithTimeInterval:(NSTimeInterval)seconds block:(void (^)())block
++ (RNTimer *)repeatingTimerWithTimeInterval:(NSTimeInterval)seconds block:(void (^)(void))block
 {
+  NSParameterAssert(seconds);
+  NSParameterAssert(block);
+
   RNTimer *timer = [[self alloc] init];
   timer.block = block;
   timer.source = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0,
@@ -63,5 +66,11 @@
 {
   [self invalidate];
 }
+
+- (void)fire
+{
+  self.block();
+}
+
 
 @end

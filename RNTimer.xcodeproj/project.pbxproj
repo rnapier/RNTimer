@@ -153,6 +153,7 @@
 				297685CABE4755571AAB2CE7 /* Headers */,
 				297685CABE4755571AAB2CE8 /* Sources */,
 				297685CABE4755571AAB2CE9 /* Frameworks */,
+				FB97CC6E157668180064ED7C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -232,6 +233,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		FB97CC6E157668180064ED7C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which -s appledoc; then appledoc .; fi";
 		};
 /* End PBXShellScriptBuildPhase section */
 

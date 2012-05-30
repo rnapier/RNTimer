@@ -13,10 +13,6 @@
 	<string>Rob Napier</string>
 	<key>--company-id</key>
 	<string>net.robnapier</string>
-	<key>--create-html</key>
-	<true/>
-	<key>--create-docset</key>
-	<false/>
 	<key>--output</key>
 	<string>doc</string>
 	<key>--logformat</key>

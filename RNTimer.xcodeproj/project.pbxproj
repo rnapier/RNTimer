@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		297685CABE4755571AAB2CEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 297685CABE4755571AAB2CEB /* Foundation.framework */; };
+		297685CABE4755571AAB2CF1 /* RNTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 297685CABE4755571AAB2CF0 /* RNTimer.h */; };
+		297685CABE4755571AAB2CF3 /* RNTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 297685CABE4755571AAB2CF2 /* RNTimer.m */; };
+		297685CABE4755571AAB2CFE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 297685CABE4755571AAB2CFD /* SenTestingKit.framework */; };
+		297685CABE4755571AAB2D00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 297685CABE4755571AAB2CFF /* UIKit.framework */; };
+		297685CABE4755571AAB2D01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 297685CABE4755571AAB2CEB /* Foundation.framework */; };
+		297685CABE4755571AAB2D09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 297685CABE4755571AAB2D08 /* InfoPlist.strings */; };
+		297685CABE4755571AAB2D0C /* RNTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 297685CABE4755571AAB2D0B /* RNTimerTests.m */; };
+		FB97CC6D1576604F0064ED7C /* libRNTimer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 297685CABE4755571AAB2CE2 /* libRNTimer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		297685CABE4755571AAB2D02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 297685CABE4755571AAB2CDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 297685CABE4755571AAB2CE3;
+			remoteInfo = RNTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		297685CABE4755571AAB2CE2 /* libRNTimer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNTimer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		297685CABE4755571AAB2CEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		297685CABE4755571AAB2CEF /* RNTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNTimer-Prefix.pch"; sourceTree = "<group>"; };
+		297685CABE4755571AAB2CF0 /* RNTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTimer.h; sourceTree = "<group>"; };
+		297685CABE4755571AAB2CF2 /* RNTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTimer.m; sourceTree = "<group>"; };
+		297685CABE4755571AAB2CF4 /* RNTimerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNTimerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		297685CABE4755571AAB2CFD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = System/Library/Frameworks/SenTestingKit.framework; sourceTree = SDKROOT; };
+		297685CABE4755571AAB2CFF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		297685CABE4755571AAB2D06 /* RNTimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "RNTimerTests-Info.plist"; sourceTree = "<group>"; };
+		297685CABE4755571AAB2D07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		297685CABE4755571AAB2D0A /* RNTimerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTimerTests.h; sourceTree = "<group>"; };
+		297685CABE4755571AAB2D0B /* RNTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTimerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		297685CABE4755571AAB2CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297685CABE4755571AAB2CEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297685CABE4755571AAB2CFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB97CC6D1576604F0064ED7C /* libRNTimer.a in Frameworks */,
+				297685CABE4755571AAB2CFE /* SenTestingKit.framework in Frameworks */,
+				297685CABE4755571AAB2D00 /* UIKit.framework in Frameworks */,
+				297685CABE4755571AAB2D01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		297685CABE4755571AAB2CDE = {
+			isa = PBXGroup;
+			children = (
+				297685CABE4755571AAB2CDF /* Products */,
+				297685CABE4755571AAB2CEA /* Frameworks */,
+				297685CABE4755571AAB2CED /* RNTimer */,
+				297685CABE4755571AAB2D04 /* RNTimerTests */,
+			);
+			sourceTree = "<group>";
+		};
+		297685CABE4755571AAB2CDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				297685CABE4755571AAB2CE2 /* libRNTimer.a */,
+				297685CABE4755571AAB2CF4 /* RNTimerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		297685CABE4755571AAB2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				297685CABE4755571AAB2CFF /* UIKit.framework */,
+				297685CABE4755571AAB2CFD /* SenTestingKit.framework */,
+				297685CABE4755571AAB2CEB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		297685CABE4755571AAB2CED /* RNTimer */ = {
+			isa = PBXGroup;
+			children = (
+				297685CABE4755571AAB2CF2 /* RNTimer.m */,
+				297685CABE4755571AAB2CF0 /* RNTimer.h */,
+				297685CABE4755571AAB2CEE /* Supporting Files */,
+			);
+			path = RNTimer;
+			sourceTree = "<group>";
+		};
+		297685CABE4755571AAB2CEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				297685CABE4755571AAB2CEF /* RNTimer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		297685CABE4755571AAB2D04 /* RNTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				297685CABE4755571AAB2D0B /* RNTimerTests.m */,
+				297685CABE4755571AAB2D0A /* RNTimerTests.h */,
+				297685CABE4755571AAB2D05 /* Supporting Files */,
+			);
+			path = RNTimerTests;
+			sourceTree = "<group>";
+		};
+		297685CABE4755571AAB2D05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				297685CABE4755571AAB2D08 /* InfoPlist.strings */,
+				297685CABE4755571AAB2D06 /* RNTimerTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		297685CABE4755571AAB2CE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297685CABE4755571AAB2CF1 /* RNTimer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		297685CABE4755571AAB2CE3 /* RNTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 297685CABE4755571AAB2CE4 /* Build configuration list for PBXNativeTarget "RNTimer" */;
+			buildPhases = (
+				297685CABE4755571AAB2CE7 /* Headers */,
+				297685CABE4755571AAB2CE8 /* Sources */,
+				297685CABE4755571AAB2CE9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNTimer;
+			productName = RNTimer;
+			productReference = 297685CABE4755571AAB2CE2 /* libRNTimer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		297685CABE4755571AAB2CF5 /* RNTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 297685CABE4755571AAB2CF6 /* Build configuration list for PBXNativeTarget "RNTimerTests" */;
+			buildPhases = (
+				297685CABE4755571AAB2CF9 /* Sources */,
+				297685CABE4755571AAB2CFA /* Frameworks */,
+				297685CABE4755571AAB2CFB /* Resources */,
+				297685CABE4755571AAB2CFC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				297685CABE4755571AAB2D03 /* PBXTargetDependency */,
+			);
+			name = RNTimerTests;
+			productName = RNTimerTests;
+			productReference = 297685CABE4755571AAB2CF4 /* RNTimerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		297685CABE4755571AAB2CDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 297685CABE4755571AAB2CDD /* Build configuration list for PBXProject "RNTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 297685CABE4755571AAB2CDE;
+			productRefGroup = 297685CABE4755571AAB2CDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				297685CABE4755571AAB2CE3 /* RNTimer */,
+				297685CABE4755571AAB2CF5 /* RNTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		297685CABE4755571AAB2CFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297685CABE4755571AAB2D09 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		297685CABE4755571AAB2CFC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		297685CABE4755571AAB2CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297685CABE4755571AAB2CF3 /* RNTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297685CABE4755571AAB2CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297685CABE4755571AAB2D0C /* RNTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		297685CABE4755571AAB2D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 297685CABE4755571AAB2CE3 /* RNTimer */;
+			targetProxy = 297685CABE4755571AAB2D02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		297685CABE4755571AAB2D08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				297685CABE4755571AAB2D07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		297685CABE4755571AAB2CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		297685CABE4755571AAB2CE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		297685CABE4755571AAB2CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/RNTimer.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RNTimer/RNTimer-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		297685CABE4755571AAB2CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/RNTimer.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RNTimer/RNTimer-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		297685CABE4755571AAB2CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RNTimer/RNTimer-Prefix.pch";
+				INFOPLIST_FILE = "RNTimerTests/RNTimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		297685CABE4755571AAB2CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RNTimer/RNTimer-Prefix.pch";
+				INFOPLIST_FILE = "RNTimerTests/RNTimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		297685CABE4755571AAB2CDD /* Build configuration list for PBXProject "RNTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297685CABE4755571AAB2CE0 /* Release */,
+				297685CABE4755571AAB2CE1 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		297685CABE4755571AAB2CE4 /* Build configuration list for PBXNativeTarget "RNTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297685CABE4755571AAB2CE5 /* Release */,
+				297685CABE4755571AAB2CE6 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		297685CABE4755571AAB2CF6 /* Build configuration list for PBXNativeTarget "RNTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297685CABE4755571AAB2CF7 /* Release */,
+				297685CABE4755571AAB2CF8 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 297685CABE4755571AAB2CDC /* Project object */;
+}

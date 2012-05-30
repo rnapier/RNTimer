@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'RNTimer' target in the 'RNTimer' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+
+#endif

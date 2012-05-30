@@ -20,3 +20,6 @@ USAGE
                                             [weakSelf doSomething];
                                           }];
 
+BACKGROUND
+==========
+http://robnapier.net/blog/simple-gcd-timer-rntimer-762

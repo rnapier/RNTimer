@@ -28,7 +28,7 @@
 #import "RNTimer.h"
 
 @interface RNTimer ()
-@property (nonatomic, readwrite, strong) void (^block)();
+@property (nonatomic, readwrite, copy) void (^block)();
 @property (nonatomic, readwrite, assign) dispatch_source_t source;
 @end
 
@@ -60,6 +60,7 @@
     dispatch_release(self.source);
     self.source = nil;
   }
+  self.block = nil;
 }
 
 - (void)dealloc

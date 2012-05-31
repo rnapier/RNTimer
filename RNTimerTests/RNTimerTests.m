@@ -66,4 +66,17 @@
   STAssertTrue(countOfFires == 2, @"Should have fired twice:%d", countOfFires);
 }
 
+- (void)testScaling
+{
+  __block NSUInteger countOfFires = 0;
+
+  RNTimer *timer = [RNTimer repeatingTimerWithTimeInterval:10 block:^{
+    countOfFires++;
+  }];
+
+  [[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:10]];
+  STAssertTrue(countOfFires == 1, @"Should have fired once:%d", countOfFires);
+}
+
+
 @end

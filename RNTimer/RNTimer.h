@@ -53,7 +53,7 @@
 
  @return A new RNTimer object, configured according to the specified parameters.
 */
-+ (RNTimer *)repeatingTimerWithTimeInterval:(NSTimeInterval)seconds block:(void (^)(void))block;
++ (RNTimer *)repeatingTimerWithTimeInterval:(NSTimeInterval)seconds block:(dispatch_block_t)block;
 
 
 /**---------------------------------------------------------------------------------------

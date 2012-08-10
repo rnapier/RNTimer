@@ -188,7 +188,7 @@
 		297685CABE4755571AAB2CDC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0450;
 			};
 			buildConfigurationList = 297685CABE4755571AAB2CDD /* Build configuration list for PBXProject "RNTimer" */;
 			compatibilityVersion = "Xcode 3.2";
